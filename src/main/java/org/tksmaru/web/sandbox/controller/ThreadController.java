@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class ThreadController {
 
 	private static final Logger log = LoggerFactory
-			.getLogger(ThreadControllerTest.class);
+			.getLogger(ThreadController.class);
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView top() throws Exception {
